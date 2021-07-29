@@ -22,14 +22,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](../assets/desktop-mockup.jpg)
+![See screenshot](../assets/desktop-mockup.jpg)
 
 Desktop layout screenshot above.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ph4ntom5/EasyBank-Landing-Page-FrontEndMentor-Project)
-- Live Site URL: [Add live site URL here](#)
+- Solution URL: [Github Repo](https://github.com/ph4ntom5/vuelanderpage)
+- Live Site URL: [Live version](#)
 
 ### Built with
 
