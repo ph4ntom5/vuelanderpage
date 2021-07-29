@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![See screenshot](../assets/desktop-mockup.jpg)
+![desktop-mockup](https://user-images.githubusercontent.com/27483300/127519744-c5890c8e-c151-44d1-920c-5156719ead62.jpg)
 
 Desktop layout screenshot above.
 
