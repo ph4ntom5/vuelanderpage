@@ -8,10 +8,10 @@
       />
     </picture>
     <article>
-      <h3 class="text-center mt-5">
+      <h3 class="text-center mt-5 px-xl-15">
         All your files in one secure location, accessible anywhere.
       </h3>
-      <p class="pt-2">
+      <p class="pt-2 px-xl-15">
         Fylo stores all your most important files in one secure location.Access
         them wherever you need,share and collaborate with friends, family and
         co-workers.

@@ -1,21 +1,27 @@
-<template>
-  <section class="mx-auto">
-    <img
-      class="img-fluid pt-1 mx-auto"
-      src="../assets/illustration-stay-productive.png"
-      alt="3 people working"
-    />
-    <article class="works-section">
-      <h5 class=" mt-5 text-left">Stay productive, wherever you are</h5>
-      <p class="pt-2 works-par">
-        Never let location be an issue when accessing your files.Fylo has you
-        covered for all of your file storage needs. <br />Securely share files
-        and folders with friends, family and colleagues for live
-        collaborations.No email attachments required.
-      </p>
-      <a class="link-fylo" href="#">See how Fylo works</a>
-    </article>
-  </section>
+<template
+  ><div class="container text-center d-lg-flex flex-row">
+    <div class="container ">
+      <section class="mx-auto">
+        <img
+          class="img-fluid pt-1 mx-auto"
+          src="../assets/illustration-stay-productive.png"
+          alt="3 people working"
+        />
+      </section>
+    </div>
+    <div class="container">
+      <article class="works-section pt-8">
+        <h5 class=" mt-5 text-left">Stay productive, wherever you are</h5>
+        <p class="pt-2 works-par">
+          Never let location be an issue when accessing your files.Fylo has you
+          covered for all of your file storage needs. <br />Securely share files
+          and folders with friends, family and colleagues for live
+          collaborations.No email attachments required.
+        </p>
+        <a class="link-fylo" href="#">See how Fylo works</a>
+      </article>
+    </div>
+  </div>
 </template>
 
 <script>

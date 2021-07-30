@@ -1,79 +1,84 @@
 <template>
-  <img class="quotes" src="../assets/bg-quotes.png" />
+  <div class="container d-lg-flex flex-row">
+    <div class="card-body testi text-left m-5">
+      <img class="quotes" src="../assets/bg-quotes.png" />
 
-  <div class="card-body testi text-left m-5">
-    <p class="testi-card-text mt-4 text-sm-left">
-      Fylo has improved our team productivity by an order of magnitude.Since
-      making the switch our team has become a well-oiled collaboration machine.
-    </p>
-    <div class=" card-img-top container text-left">
-      <div class="row avatar">
-        <div class="avatar-img">
-          <img
-            class="img-fluid"
-            src="../assets/profile-1.jpg"
-            alt="Card image cap"
-          />
-          <div class="row testi-caption">
-            <h5 class="card-title">Satish Patel</h5>
+      <p class="testi-card-text text-sm-left">
+        Fylo has improved our team productivity by an order of magnitude.Since
+        making the switch our team has become a well-oiled collaboration
+        machine.
+      </p>
+      <div class=" card-img-top container text-left">
+        <div class="row avatar">
+          <div class="avatar-img">
+            <img
+              class="img-fluid"
+              src="../assets/profile-1.jpg"
+              alt="Card image cap"
+            />
+            <div class="row testi-caption">
+              <h5 class="card-title">Satish Patel</h5>
 
-            <caption>
-              Founder & CEO, Huddle
-            </caption>
+              <caption>
+                Founder & CEO, Huddle
+              </caption>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Second Tesitmonial-->
+    <!-- Second Tesitmonial-->
 
-  <div class="card-body testi text-left m-5">
-    <p class="testi-card-text mt-4 text-sm-left">
-      Fylo has improved our team productivity by an order of magnitude.Since
-      making the switch our team has become a well-oiled collaboration machine.
-    </p>
-    <div class=" card-img-top container text-left">
-      <div class="row avatar">
-        <div class="avatar-img">
-          <img
-            class="img-fluid"
-            src="../assets/profile-2.jpg"
-            alt="Card image cap"
-          />
-          <div class="row testi-caption">
-            <h5 class="card-title">Bruce McKenzie</h5>
+    <div class="card-body testi text-left m-5">
+      <p class="testi-card-text mt-4 text-sm-left">
+        Fylo has improved our team productivity by an order of magnitude.Since
+        making the switch our team has become a well-oiled collaboration
+        machine.
+      </p>
+      <div class=" card-img-top container text-left">
+        <div class="row avatar">
+          <div class="avatar-img">
+            <img
+              class="img-fluid"
+              src="../assets/profile-2.jpg"
+              alt="Card image cap"
+            />
+            <div class="row testi-caption">
+              <h5 class="card-title">Bruce McKenzie</h5>
 
-            <caption>
-              Founder & CEO, Huddle
-            </caption>
+              <caption>
+                Founder & CEO, Huddle
+              </caption>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Third Tesitmonial-->
+    <!-- Third Tesitmonial-->
 
-  <div class="card-body testi text-left m-5">
-    <p class="testi-card-text mt-4 text-sm-left">
-      Fylo has improved our team productivity by an order of magnitude.Since
-      making the switch our team has become a well-oiled collaboration machine.
-    </p>
-    <div class=" card-img-top container text-left">
-      <div class="row avatar">
-        <div class="avatar-img">
-          <img
-            class="img-fluid"
-            src="../assets/profile-3.jpg"
-            alt="Card image cap"
-          />
-          <div class="row testi-caption">
-            <h5 class="card-title">Iva Boyd</h5>
+    <div class="card-body testi text-left m-5">
+      <p class="testi-card-text mt-4 text-sm-left">
+        Fylo has improved our team productivity by an order of magnitude.Since
+        making the switch our team has become a well-oiled collaboration
+        machine.
+      </p>
+      <div class=" card-img-top container text-left">
+        <div class="row avatar">
+          <div class="avatar-img">
+            <img
+              class="img-fluid"
+              src="../assets/profile-3.jpg"
+              alt="Card image cap"
+            />
+            <div class="row testi-caption">
+              <h5 class="card-title">Iva Boyd</h5>
 
-            <caption>
-              Founder & CEO, Huddle
-            </caption>
+              <caption>
+                Founder & CEO, Huddle
+              </caption>
+            </div>
           </div>
         </div>
       </div>
@@ -90,9 +95,8 @@ export default {
 <style lang="scss" scoped>
 .quotes {
   position: relative;
-  top: 3rem;
-  left: 3rem;
-  width: 1.5rem;
+  top: -2.5rem;
+  width: 2.5rem;
 }
 
 .testi {
@@ -101,6 +105,7 @@ export default {
   margin-bottom: 2rem;
 
   .testi-card-text {
+    margin-top: -0.6rem;
     color: white;
     text-align: left;
     opacity: 0.8;

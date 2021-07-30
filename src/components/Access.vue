@@ -1,28 +1,33 @@
 <template>
-  <section class="wrapper">
-    <section>
-      <h3 class="text-center mb-2">Get early access today</h3>
-      <p>
-        It only takes a minute to sign up and our free starter tier is extremely
-        generous. If you have any questions, our support team would be happy to
-        help you.
-      </p>
+  <div class="container px-lg-12">
+    <section class="wrapper ">
+      <section>
+        <h3 class="text-center mb-2">Get early access today</h3>
+        <p>
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team would
+          be happy to help you.
+        </p>
+      </section>
+      <form>
+        <div class="form-group mx-auto text-center d-lg-flex flex-row">
+          <input
+            type="email"
+            class="form-control col-lg-0 px-lg-10"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="email@fylo.com"
+          />
+          <button
+            type="submit"
+            class="btn btn-primary mt-4 m-lg-0 col-lg-0 mx-lg-4"
+          >
+            Get Started For Free
+          </button>
+        </div>
+      </form>
     </section>
-    <form>
-      <div class="form-group mx-auto text-center ">
-        <input
-          type="email"
-          class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-          placeholder="email@example.com"
-        />
-        <button type="submit" class="btn btn-primary mt-4 ">
-          Get Started For Free
-        </button>
-      </div>
-    </form>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -70,7 +75,6 @@ section p {
 }
 
 form button {
-  margin-top: 2rem !important;
   background-color: #4fc4d4;
   height: 4rem;
   width: 95%;
