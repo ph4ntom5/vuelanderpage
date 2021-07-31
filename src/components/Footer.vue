@@ -1,17 +1,18 @@
 <template>
   <div class="container">
-    <section class="mt-5 text-left pl-5">
+    <section class="mt-5 text-left">
       <img
         class="logo img-fluid ps-5 pt-5"
         src="../assets/logo.svg"
         alt="two people organizing work illustrative scene"
       />
     </section>
-
+  </div>
+  <div class="container footer-wrapper">
     <div class="container ">
       <!-- Address section-->
       <section>
-        <div class="row  contact-section d-lg-flex flex-lg-column col-lg-8">
+        <div class="row contact-section col col-lg-5">
           <div class="icon ps-5 pt-5 col">
             <img
               src="../assets/icon-location.svg"
@@ -20,13 +21,12 @@
           </div>
           <div class="contacts">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            praesentium veritatis assumenda voluptas fuga in magnam. Debitis
-            laboriosam explicabo cupiditate dolore.
+            praesentium veritatis assumenda voluptas.
           </div>
           <div class="container row">
             <!-- Phone section-->
             <section>
-              <div class="row contact-section">
+              <div class="row contact-section ">
                 <div class="icon ps-5 pt-5">
                   <img
                     src="../assets/icon-phone.svg"
@@ -55,9 +55,9 @@
             </section>
           </div>
         </div>
-        <!--Footer Links-->
 
-        <section class="mt-5">
+        <!--Footer Links-->
+        <section class="mt-5 ">
           <ul class="first-group">
             <li><a href="#">About Us</a></li>
             <li><a href="#">Jobs</a></li>
@@ -118,6 +118,10 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+}
 .logo {
   width: 9rem;
 }
@@ -146,10 +150,14 @@ export default {};
 
 .first-group li a {
   color: white;
-  list-style: none;
+
   text-decoration: none;
   font-size: 1.2rem;
   line-height: 2rem;
+}
+
+.first-group {
+  list-style-type: none;
 }
 
 .first-group li a:hover {

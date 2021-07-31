@@ -13,7 +13,7 @@
         <div class="form-group mx-auto text-center d-lg-flex flex-row">
           <input
             type="email"
-            class="form-control col-lg-0 px-lg-10"
+            class="form-control col-lg-0 px-lg-7"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             placeholder="email@fylo.com"
